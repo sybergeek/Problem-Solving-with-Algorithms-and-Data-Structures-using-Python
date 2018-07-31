@@ -11,7 +11,7 @@ def isBalanced(symbols):
             list.push(symbol)
         elif symbol in ")]}>":
             if list.isEmpty():
-                balaned=False
+                balanced=False
                 break
             else:
                 opening=list.peek()
